@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail Login for Receipt Scanner Bot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #4285F4;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #4285F4;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #3367D6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Receipt Scanner Bot</h1>
+        <p>Click the button below to log in with your Gmail account and start scanning for receipts.</p>
+        <a href="/api/login" class="btn">Login with Gmail</a>
+    </div>
+</body>
+</html>
